@@ -1,0 +1,28 @@
+﻿@page "{id:int}"
+@model ArtGallery.Pages.CheckDetailsModel
+@{
+    ViewData["Title"] = "CheckDetails";
+}
+
+<h2>CheckDetails</h2>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Price</th>
+            <th>Category</th>
+            <th>Size</th>
+            <th>Status</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>@Model.ArtWork.Name</td>
+            <td>@Model.ArtWork.Price</td>
+            <td>@Model.ArtWork.Category</td>
+            <td>@Model.ArtWork.Size</td>
+            <td>@Model.ArtWork.Status</td>
+        </tr>
+    </tbody>
+</table>

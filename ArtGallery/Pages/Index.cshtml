@@ -1,0 +1,29 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<h2>Home</h2>
+
+<form method="post">
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Status</th>
+            </tr>
+        </thead>
+        <tbody>
+             @foreach (var artWork in Model.ArtWorks) { 
+            <tr>
+                <td>@artWork.Name</td>
+                <td>@artWork.Status</td>
+                <td><a asp-page="./CheckDetails" asp-route-id="@artWork.Id">Check details</a></td>
+            </tr>
+             }
+        </tbody>
+    </table>
+
+    <a asp-page="./AddArtWork">Add new artwork</a>
+</form>

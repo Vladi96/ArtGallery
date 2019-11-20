@@ -1,0 +1,48 @@
+﻿@page
+@model ArtGallery.Pages.AddArtWorkModel
+@{
+    ViewData["Title"] = "AddArtWork";
+}
+
+<h2>AddArtWork</h2>
+
+<form method="post">
+    <div>
+        <label for="name">Author Name:</label>
+        <input asp-for="ArtWork.Name" type="text" id="name" />
+        <span asp-validation-for="ArtWork.Name"></span>
+    </div>
+
+    <div>
+        <label for="price">Price:</label>
+        <input asp-for="ArtWork.Price" id="price" />
+        <span asp-validation-for="ArtWork.Price"></span>
+    </div>
+
+    <div>
+        <label for="category">Category:</label>
+        <select asp-for="ArtWork.Category" id="category">
+            <option>Drawing</option>
+            <option>Photography</option>
+            <option>Sculpture</option>
+        </select>
+        <span asp-validation-for="ArtWork.Category"></span>
+    </div>
+
+    <div>
+        <label for="status">Status:</label>
+        <select asp-for="ArtWork.Status" id="status">
+            <option>New</option>
+            <option>Sold</option>
+            <option>Returned to the Autor</option>
+        </select>
+        <span asp-validation-for="ArtWork.Category"></span>
+    </div>
+
+    <div>
+        <label for="size">Size:</label>
+        <input asp-for="ArtWork.Size" id="size" />
+        <span asp-validation-for="ArtWork.Size"></span>
+    </div>
+    <input type="submit" />
+</form>

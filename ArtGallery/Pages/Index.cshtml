@@ -20,6 +20,10 @@
                 <td>@artWork.Name</td>
                 <td>@artWork.Status</td>
                 <td><a asp-page="./CheckDetails" asp-route-id="@artWork.Id">Check details</a></td>
+                <td><a asp-page="./Edit" asp-route-id="@artWork.Id">Edit</a></td>
+                <td>
+                    <button asp-page-handler="delete" asp-route-id="@artWork.Id">Delete</button>
+                </td>
             </tr>
              }
         </tbody>

@@ -32,3 +32,38 @@ D:\DotNet Core\AcrGallery\ArtGallery\ArtGallery\obj\Debug\netcoreapp2.1\ArtGalle
 D:\DotNet Core\AcrGallery\ArtGallery\ArtGallery\obj\Debug\netcoreapp2.1\ArtGallery.csprojAssemblyReference.cache
 D:\DotNet Core\AcrGallery\ArtGallery\ArtGallery\obj\Debug\netcoreapp2.1\Razor\Pages\AddArtWork.cshtml.g.cs
 D:\DotNet Core\AcrGallery\ArtGallery\ArtGallery\obj\Debug\netcoreapp2.1\Razor\Pages\CheckDetails.cshtml.g.cs
+D:\ArtGallery\ArtGallery\bin\Debug\netcoreapp2.1\appsettings.Development.json
+D:\ArtGallery\ArtGallery\bin\Debug\netcoreapp2.1\appsettings.json
+D:\ArtGallery\ArtGallery\bin\Debug\netcoreapp2.1\Properties\launchSettings.json
+D:\ArtGallery\ArtGallery\bin\Debug\netcoreapp2.1\ArtGallery.deps.json
+D:\ArtGallery\ArtGallery\bin\Debug\netcoreapp2.1\ArtGallery.runtimeconfig.json
+D:\ArtGallery\ArtGallery\bin\Debug\netcoreapp2.1\ArtGallery.runtimeconfig.dev.json
+D:\ArtGallery\ArtGallery\bin\Debug\netcoreapp2.1\ArtGallery.dll
+D:\ArtGallery\ArtGallery\bin\Debug\netcoreapp2.1\ArtGallery.pdb
+D:\ArtGallery\ArtGallery\bin\Debug\netcoreapp2.1\ArtGallery.Views.dll
+D:\ArtGallery\ArtGallery\bin\Debug\netcoreapp2.1\ArtGallery.Views.pdb
+D:\ArtGallery\ArtGallery\obj\Debug\netcoreapp2.1\ArtGallery.csprojAssemblyReference.cache
+D:\ArtGallery\ArtGallery\obj\Debug\netcoreapp2.1\ArtGallery.RazorAssemblyInfo.cache
+D:\ArtGallery\ArtGallery\obj\Debug\netcoreapp2.1\ArtGallery.RazorAssemblyInfo.cs
+D:\ArtGallery\ArtGallery\obj\Debug\netcoreapp2.1\ArtGallery.AssemblyInfoInputs.cache
+D:\ArtGallery\ArtGallery\obj\Debug\netcoreapp2.1\ArtGallery.AssemblyInfo.cs
+D:\ArtGallery\ArtGallery\obj\Debug\netcoreapp2.1\ArtGallery.TagHelpers.input.cache
+D:\ArtGallery\ArtGallery\obj\Debug\netcoreapp2.1\ArtGallery.TagHelpers.output.cache
+D:\ArtGallery\ArtGallery\obj\Debug\netcoreapp2.1\ArtGallery.RazorCoreGenerate.cache
+D:\ArtGallery\ArtGallery\obj\Debug\netcoreapp2.1\Razor\Pages\AddArtWork.cshtml.g.cs
+D:\ArtGallery\ArtGallery\obj\Debug\netcoreapp2.1\Razor\Pages\CheckDetails.cshtml.g.cs
+D:\ArtGallery\ArtGallery\obj\Debug\netcoreapp2.1\Razor\Pages\Error.cshtml.g.cs
+D:\ArtGallery\ArtGallery\obj\Debug\netcoreapp2.1\Razor\Pages\Index.cshtml.g.cs
+D:\ArtGallery\ArtGallery\obj\Debug\netcoreapp2.1\Razor\Pages\Privacy.cshtml.g.cs
+D:\ArtGallery\ArtGallery\obj\Debug\netcoreapp2.1\Razor\Pages\Shared\_CookieConsentPartial.cshtml.g.cs
+D:\ArtGallery\ArtGallery\obj\Debug\netcoreapp2.1\Razor\Pages\Shared\_Layout.cshtml.g.cs
+D:\ArtGallery\ArtGallery\obj\Debug\netcoreapp2.1\Razor\Pages\Shared\_ValidationScriptsPartial.cshtml.g.cs
+D:\ArtGallery\ArtGallery\obj\Debug\netcoreapp2.1\Razor\Pages\_ViewImports.cshtml.g.cs
+D:\ArtGallery\ArtGallery\obj\Debug\netcoreapp2.1\Razor\Pages\_ViewStart.cshtml.g.cs
+D:\ArtGallery\ArtGallery\obj\Debug\netcoreapp2.1\ArtGallery.RazorTargetAssemblyInfo.cache
+D:\ArtGallery\ArtGallery\obj\Debug\netcoreapp2.1\ArtGallery.RazorTargetAssemblyInfo.cs
+D:\ArtGallery\ArtGallery\obj\Debug\netcoreapp2.1\ArtGallery.Views.pdb
+D:\ArtGallery\ArtGallery\obj\Debug\netcoreapp2.1\ArtGallery.dll
+D:\ArtGallery\ArtGallery\obj\Debug\netcoreapp2.1\ArtGallery.pdb
+D:\ArtGallery\ArtGallery\obj\Debug\netcoreapp2.1\ArtGallery.csproj.CopyComplete
+D:\ArtGallery\ArtGallery\obj\Debug\netcoreapp2.1\Razor\Pages\Edit.cshtml.g.cs

@@ -22,5 +22,18 @@ namespace ArtGallery.Pages
         {
             ArtWorks = await _db.ArtWorks.AsNoTracking().ToListAsync();
         }
+
+        public async Task<IActionResult> OnPostDeleteAsync(int id)
+        {
+            var customer = await _db.ArtWorks.FindAsync(id);
+
+            if (customer != null)
+            {
+                _db.ArtWorks.Remove(customer);
+                await _db.SaveChangesAsync();
+            }
+
+            return RedirectToPage();
+        }
     }
 }

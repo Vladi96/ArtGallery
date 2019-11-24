@@ -5,33 +5,76 @@ body {
     padding-bottom: 20px;
 }
 
-/* Wrapping element */
-/* Set some basic padding to keep content from hitting the edges */
-.body-content {
-    padding-left: 15px;
-    padding-right: 15px;
+.Form{
+    width: 300px;
+    margin: 0 auto;
 }
 
-/* Carousel */
-.carousel-caption p {
-    font-size: 20px;
-    line-height: 1.4;
+.Form label{
+    display:block;
+    text-align:center;
+    margin-bottom:0;
 }
 
-/* Make .svg files in the carousel display properly in older browsers */
-.carousel-inner .item img[src$=".svg"] {
-    width: 100%;
+
+.Form div{
+    margin-bottom:10px;
 }
 
-/* QR code generator */
-#qrCode {
-    margin: 15px;
+.Form input, .Form select{
+    border: none;
+    border-bottom:2px solid #808080;
+    width:90%;
+    margin: 0 auto;
+    display:block;
+    outline:none;
+    padding: 5px;
 }
 
-/* Hide/rearrange for smaller screens */
-@media screen and (max-width: 767px) {
-    /* Hide captions */
-    .carousel-caption {
-        display: none;
-    }
+.Form input:focus, .Form select:focus {
+    border-bottom: 2px solid #00abff;
+}
+
+.field-validation-error {
+    color: #ff0000;
+    font-weight: 600;
+    text-align: center;
+    display: block;
+}
+
+.Submit_Btn{
+    width:200px;
+    display:block;
+    margin: 0 auto;
+    background-color:#ebbf46;
+    border: 1px solid #808080;
+    border-radius:5px;
+    padding:5px;
+    font-weight:600;
+}
+
+.Submit_Btn:hover {
+    background-color: #f5d57f;
+}
+
+.AddLink{
+    font-weight:700;
+    color:#ff0000;
+    font-size:18px;
+}
+
+.AddLink:hover{
+    color:#00abff;
+}
+
+.Delete_Btn {
+    border: 1px solid #000;
+    background-color: rgba(255, 0, 0, 0.72);
+    padding: 7px 15px;
+    border-radius:5px;
+    font-weight:600;
+}
+
+.Delete_Btn:hover {
+    background-color: rgb(253, 127, 127);
 }

@@ -18,7 +18,7 @@ namespace ArtGallery
         public string Category { get; set; }
 
         [Required]
-        public double Size { get; set; }
+        public string Size { get; set; }
 
         [Required, Display(Name ="Status")]
         public string Status { get; set; }
